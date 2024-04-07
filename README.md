@@ -2,10 +2,10 @@
 
 Task prepared for Nokia Intenship Programme recruitment process.
 
-after cloning the project, too see it in a browser you have to:
-cd WeatherApp
-npm i
-npm run dev
+after cloning the project, too see it in a browser you have to: </br>
+cd WeatherApp </br>
+npm i </br>
+npm run dev </br>
 
 After that you sould be able to see the results.
 
