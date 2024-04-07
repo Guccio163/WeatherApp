@@ -1,0 +1,82 @@
+[
+  {
+    "id": 5128581,
+    "name": "New York City",
+    "state": "NY",
+    "country": "US",
+    "coord": {
+      "lon": -74.005966,
+      "lat": 40.714272
+    }
+  },
+  {
+    "id": 524894,
+    "name": "Moscow",
+    "state": "",
+    "country": "RU",
+    "coord": {
+      "lon": 37.606667,
+      "lat": 55.761665
+    }
+  },
+  {
+    "id": 1704129,
+    "name": "Madrid",
+    "state": "",
+    "country": "PH",
+    "coord": {
+      "lon": 125.964371,
+      "lat": 9.26211
+    }
+  },
+  {
+    "id": 2950158,
+    "name": "Berlin",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 10.45,
+      "lat": 54.033329
+    }
+  },
+  {
+    "id": 3451189,
+    "name": "Rio de Janeiro",
+    "state": "",
+    "country": "BR",
+    "coord": {
+      "lon": -42.5,
+      "lat": -22.0
+    }
+  },
+  {
+    "id": 5188351,
+    "name": "Egypt",
+    "state": "PA",
+    "country": "US",
+    "coord": {
+      "lon": -75.529907,
+      "lat": 40.680099
+    }
+  },
+  {
+    "id": 2267057,
+    "name": "Lisbon",
+    "state": "",
+    "country": "PT",
+    "coord": {
+      "lon": -9.13333,
+      "lat": 38.716671
+    }
+  },
+  {
+    "id": 6691831,
+    "name": "Vatican City",
+    "state": "",
+    "country": "VA",
+    "coord": {
+      "lon": 12.45332,
+      "lat": 41.902359
+    }
+  }
+]
