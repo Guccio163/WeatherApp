@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task prepared for Nokia Intenship Programme recruitment process.
 
-Currently, two official plugins are available:
+after cloning the project, too see it in a browser you have to:
+cd WeatherApp
+npm i
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After that you sould be able to see the results.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- This frontend project enables You to check the weather in various cities across the globe;
+- Due to the chosen method (Autocomplete input) I had to shorten the list of available cities,
+normally there are more than million cities, but it was really hard to search through and lagged whole app,
+it would probebly be a task for a backend service to serve most probable cities based on what user is inputing.
+- You can both add and delete cities
+- Every city has listed its name, overall weather's icon, temperature in Celsius, how high does the temperature feels like and wind speed in m/s.
